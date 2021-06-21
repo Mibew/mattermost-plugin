@@ -26,7 +26,7 @@ Provides Mattermost notifications when a chat is initiated.
             username: "Mibew-Chat"
             channel: "main"
             mattermost_url: "http://example.com/hooks/xxx-generatedkey-xxx"
-            custom-text: "Go to mibew/operator/users (send via Mattermost plugin)"
+            custom_text: "Go to mibew/operator/users (send via Mattermost plugin)"
     ```
 
 6. Navigate to "`<Mibew Base URL>`/operator/plugin" page and enable the plugin.
@@ -52,7 +52,7 @@ Type: `String`
 
 Webhook URL from Setup Instructions in Mattermost.
 
-### config.custom-text
+### config.custom_text
 
 Type: `String`
 
